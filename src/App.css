@@ -1,0 +1,46 @@
+/* App.css */
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.chat-container {
+  width: 400px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.messages-container {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.message {
+  padding: 8px;
+  margin: 4px;
+  border-radius: 8px;
+  max-width: 70%;
+}
+
+.sent {
+  align-self: flex-end;
+  background-color: #DCF8C6;
+}
+
+.received {
+  align-self: flex-start;
+  background-color: #EDEDED;
+}
+
+.message-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.timestamp {
+  font-size: 10px;
+  color: #666;
+}
